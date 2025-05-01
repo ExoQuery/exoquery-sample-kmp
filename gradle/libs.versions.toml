@@ -5,8 +5,8 @@ dateTimeVersion = "0.6.0"
 koin = "3.5.3"
 sqlDelight = "2.0.2"
 terpalPlugin = "2.1.0-1.1.0.PL"
-exoqueryPlugin = "2.1.0-1.1.21.PL"
-exoquerySql = "1.1.21.PL-1.1.21"
+exoqueryPlugin = "2.1.0-1.1.2.PL"
+exoquerySql = "1.1.2.PL-1.1.2"
 terpalSql = "1.0.0.PL-1.0.0"
 lifecycleViewmodelCompose = "2.7.0"
 material3 = "1.2.0"
@@ -77,6 +77,7 @@ androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text
 #terpal-android = { module = "io.exoquery:terpal-sql-android", version.ref = "terpalSql" }
 #terpal-native = { module = "io.exoquery:terpal-sql-native", version.ref = "terpalSql" }
 
+exoquery-engine = { module = "io.exoquery:exoquery-engine", version.ref = "exoqueryPlugin" }
 exoquery-runner-android = { module = "io.exoquery:exoquery-runner-android", version.ref = "exoquerySql" }
 exoquery-runner-native = { module = "io.exoquery:exoquery-runner-native", version.ref = "exoquerySql" }
 exoquery-runner-core = { module = "io.exoquery:exoquery-runner-core", version.ref = "exoquerySql" }
