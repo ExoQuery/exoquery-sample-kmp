@@ -1,4 +1,4 @@
-rootProject.name = "terpal-sql-sample"
+rootProject.name = "exoquery-sample"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
